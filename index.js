@@ -1,3 +1,5 @@
+$( document ).ready(function() {
+
 $("#clickButton").click(function(){
   $("body").append("Hello!<br>");
 });
@@ -5,4 +7,5 @@ $("#clickButton").click(function(){
 
 $("#doubleClickButton").dblclick(function(){
   $("body").append("Evelyn<br>");
+});
 });
