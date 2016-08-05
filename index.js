@@ -1,8 +1,11 @@
 $( document ).ready(function() {
-
 $("#clickButton").click(function(){
   $("body").append("Hello!<br>");
 });
+
+
+
+
 
 
 $("#doubleClickButton").dblclick(function(){
